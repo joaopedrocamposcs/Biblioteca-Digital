@@ -1,0 +1,96 @@
+Documentação do Projeto – Biblioteca Digital
+
+1. Visão Geral
+A Biblioteca Digital é um projeto web voltado para a criação de uma plataforma de consulta e gerenciamento de um acervo bibliográfico. O objetivo principal é disponibilizar uma interface para visualização de livros, navegação pelo catálogo, autenticação de usuários e administração do sistema.
+
+O projeto está em fase inicial, com uma estrutura básica em páginas HTML e arquivos de estilo e script. Ele representa um protótipo funcional inicial, com potencial para evoluir para uma aplicação completa com banco de dados, autenticação e backend.
+
+2. Objetivo do Sistema
+O sistema tem como objetivo:
+- catalogar livros de forma organizada;
+- permitir busca e visualização do acervo;
+- apresentar detalhes de cada obra;
+- disponibilizar login para usuários;
+- oferecer uma área administrativa para gestão do conteúdo.
+
+3. Estrutura do Projeto
+A estrutura atual do repositório é a seguinte:
+
+- Biblioteca-Digital/
+  - README.md
+  - app.js
+  - documentação.txt
+  - Estetica/
+    - script.js
+    - style.css
+  - Estrutura_html/
+    - index.html
+    - catalago.html
+    - admin.html
+    - livro.html
+    - login.html
+
+Descrição dos arquivos principais:
+- README.md: documento inicial do projeto.
+- app.js: arquivo JavaScript principal, ainda em desenvolvimento.
+- Estetica/style.css: responsável pela aparência visual da aplicação.
+- Estetica/script.js: define interações e lógica frontend.
+- Estrutura_html/index.html: página inicial da biblioteca.
+- Estrutura_html/catalago.html: página contendo o catálogo de livros.
+- Estrutura_html/livro.html: página de detalhes de um livro específico.
+- Estrutura_html/login.html: tela de autenticação do usuário.
+- Estrutura_html/admin.html: área administrativa do sistema.
+
+4. Funcionalidades Planejadas
+As funcionalidades previstas para a plataforma incluem:
+- página inicial com apresentação da biblioteca;
+- catálogo com listagem de livros;
+- detalhes completos de cada obra;
+- sistema de login para usuários;
+- área administrativa para cadastro, edição e exclusão de itens;
+- design responsivo para diferentes tamanhos de tela;
+- interações dinâmicas com JavaScript.
+
+5. Fluxo de Uso
+O fluxo ideal do sistema é:
+1. o usuário acessa a página inicial;
+2. navega pelo catálogo de livros;
+3. consulta os detalhes de uma obra;
+4. realiza login para acessar recursos restritos;
+5. administrador atualiza ou gerencia o acervo.
+
+6. Tecnologias e Stack Atual
+O projeto atualmente utiliza:
+- HTML5 para estrutura das páginas;
+- CSS3 para layout e design visual;
+- JavaScript para interações e comportamento da interface;
+- arquivos estáticos sem banco de dados ou backend ativo.
+
+7. Requisitos para Execução
+Para visualizar a aplicação localmente, são necessários:
+- navegador moderno (Chrome, Edge, Firefox ou similar);
+- acesso aos arquivos HTML do projeto;
+- servidor local opcional para facilitar a navegação.
+
+8. Status Atual do Projeto
+Status: protótipo inicial.
+
+Observações:
+- a estrutura principal do sistema já foi criada;
+- as páginas iniciais foram planejadas;
+- há espaço para evolução em backend e banco de dados;
+- a aplicação ainda não possui integração completa entre frontend e dados reais.
+
+9. Próximos Passos
+Para evoluir o projeto, alguns próximos passos sugeridos são:
+- definir o modelo de dados dos livros;
+- implementar cadastro de livros em banco de dados;
+- criar autenticação de usuários e permissões de administrador;
+- desenvolver sistema de busca por categoria, autor e título;
+- melhorar a responsividade visual da interface;
+- integrar o front-end com back-end em Node.js, PHP, Python ou outra tecnologia;
+- adicionar validações de formulário e mensagens de erro;
+- realizar testes de navegação e usabilidade.
+
+10. Conclusão
+A Biblioteca Digital é um projeto que visa organizar e facilitar o acesso a um acervo de livros por meio de uma interface prática e moderna. Hoje, o sistema está em uma fase inicial de estruturação, com páginas estáticas e base funcional, mas com grande potencial para evoluir em um sistema completo de gestão bibliotecária.
